@@ -1,0 +1,21 @@
+{
+"extends": ["angular", "@itruns"],
+"env": {
+  "browser": true,
+  "node": true,
+  "es6": true
+  },
+  "rules": {
+    "id-match": 0,
+    "angular/foreach": 2,
+    "angular/di": [2, "function"],
+    "angular/timeout-service": 2,
+    "angular/interval-service": 2,
+    "angular/typecheck-number": 2,
+    "angular/typecheck-string": 2,
+    "angular/directive-name": [2, "/^app/"],
+    "angular/controller-as-vm": 0,
+    "angular/log": 0,
+    "promise/catch-or-return": 0,
+  }
+  }
